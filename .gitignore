@@ -1,0 +1,10 @@
+# Publish only the reviewed skill files; keep local files private by default.
+*
+!.gitignore
+!SKILL.md
+!agents/
+agents/*
+!agents/openai.yaml
+!assets/
+assets/*
+!assets/icon.svg

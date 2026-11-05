@@ -1,0 +1,11 @@
+interface:
+  display_name: "Ambition"
+  short_description: "突破既有能力边界，从高度、深度、广度重新想象并验证更有雄心的目标"
+  default_prompt: "请使用 $ambition，从高度、深度、广度重新想象这件事的可能性，提出突破原有能力边界、值得尝试且能够验证的新目标：[填写任务或想法]。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+    - "CHAT"
+    - "CODEX"
+  allow_implicit_invocation: true
